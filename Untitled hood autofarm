@@ -1,3 +1,5 @@
+getgenv().serverhop = true -- set to false if you want to stay in the same lobby farming the atms
+
 repeat task.wait() until game:IsLoaded()
 pcall(function()
     repeat wait() until game.Players.LocalPlayer.Character:FindFirstChild('FULLY_LOADED_CHAR')
